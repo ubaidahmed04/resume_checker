@@ -7,7 +7,7 @@ const ResumeAnalyzer = () => {
     const [feedback, setFeedback] = useState(null);
     const [loading, setLoading] = useState(false);
     // const URL = "http://localhost:3000/api/"
-    const URL = "http://localhost:3000/api/"
+    const URL = "https://resume-checkeers.vercel.app/api/"
     const handleFileChange = (e) => {
         setFile(e.target.files[0]);
     };
